@@ -1,3 +1,23 @@
+nav ul{
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:visited, .phone {
+    color: steelblue;
+}
+
+nav a:visited {
+    color: rebeccapurple;
+}
+
+a:hover, a:active {
+    color: firebrick;
+}
+
 h4 {
     font-size: 125%;
 }
@@ -12,6 +32,10 @@ body {
     text-align: center;
     color: #373737;
     font-size: 133%;
+}
+
+ul {
+    list-style: none;
 }
 
 a:link, a:visited, .phone {
